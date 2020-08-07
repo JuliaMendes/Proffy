@@ -49,8 +49,8 @@ const selectClassesSchedules = await db.all(`
   FROM class_schedule
   WHERE class_schedule.class_id = "1"
   AND class_schedule.weekday = "0"
-  AND class_schedule.time_from <= "520"
-  AND class_schedule.time_to > "520"
+  AND class_schedule.time_from <= "1300"
+  AND class_schedule.time_to > "1300"
 `)
 //console.log(selectClassesSchedules)
 })
